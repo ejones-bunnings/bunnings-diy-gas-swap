@@ -1,4 +1,4 @@
-import logo from "./diy-gas-swap.png";
+import logo from "./diy-gas-swap-home.png";
 import "./App.css";
 import { Link } from "react-router-dom";
 
