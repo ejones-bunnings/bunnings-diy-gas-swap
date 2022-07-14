@@ -15,13 +15,13 @@ function ConditionCylinder() {
         // const value = target.type === 'checkbox' ? target.checked : target.value;
         const name = target.name;
         if (name === "foot")
-        setFoot(!foot)
+            setFoot(!foot)
         if (name === "neck")
-        setNeck(!neck)
+            setNeck(!neck)
         if (name === "pol")
-        setPol(!pol)
+            setPol(!pol)
         if (name === "con")
-        setCon(!con)
+            setCon(!con)
 
     }
     return (
@@ -33,48 +33,50 @@ function ConditionCylinder() {
                 <img src={cylinder} className="Cylinder-logo" alt="cylinder" />
                 <div style={{ height: 22 }} />
                 <p className="Text">Check the conditions of your empty cylinder</p>
-                <div style={{ display: 'flex',
-  flexDirection: 'column', justifyContent:'flex-start', alignItems:'flex-start' }}>
-                <div className="Checkbox" >
-                    <input
-                        name="foot"
-                        type="checkbox"
-                        checked={foot}
-                        onChange={handleInputChange}
-                    /><p
-                    style={{ paddingLeft: 10, fontStyle: 'normal', fontFamily: "futura-standard" }}
-                    >Has a foot ring</p>
-                </div>
-                <div className="Checkbox" >
-                    <input
-                        name="neck"
-                        type="checkbox"
-                        checked={neck}
-                        onChange={handleInputChange}
-                    /><p
-                    style={{ paddingLeft: 10, fontStyle: 'normal', fontFamily: "futura-standard" }}
-                    >Has a neck ring or protective guard</p>
-                </div>
-                <div className="Checkbox" >
-                    <input
-                        name="pol"
-                        type="checkbox"
-                        checked={pol}
-                        onChange={handleInputChange}
-                    /><p
-                      style={{ paddingLeft: 10, fontStyle: 'normal', fontFamily: "futura-standard" }}
-                    >Has a POL or QCC valve</p>
-                </div>
-                <div className="Checkbox" >
-                    <input
-                        name="con"
-                        type="checkbox"
-                        checked={con}
-                        onChange={handleInputChange}
-                    /><p
-                      style={{ paddingLeft: 10, fontStyle: 'normal', fontFamily: "futura-standard" }}
-                    >Be in a good condition, slight rust is acceptable</p>
-                </div>
+                <div style={{
+                    display: 'flex',
+                    flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start'
+                }}>
+                    <div className="Checkbox" >
+                        <input
+                            name="foot"
+                            type="checkbox"
+                            checked={foot}
+                            onChange={handleInputChange}
+                        /><p
+                            style={{ paddingLeft: 10, fontStyle: 'normal', fontFamily: "futura-standard" }}
+                        >Has a foot ring</p>
+                    </div>
+                    <div className="Checkbox" >
+                        <input
+                            name="neck"
+                            type="checkbox"
+                            checked={neck}
+                            onChange={handleInputChange}
+                        /><p
+                            style={{ paddingLeft: 10, fontStyle: 'normal', fontFamily: "futura-standard" }}
+                        >Has a neck ring or protective guard</p>
+                    </div>
+                    <div className="Checkbox" >
+                        <input
+                            name="pol"
+                            type="checkbox"
+                            checked={pol}
+                            onChange={handleInputChange}
+                        /><p
+                            style={{ paddingLeft: 10, fontStyle: 'normal', fontFamily: "futura-standard" }}
+                        >Has a POL or QCC valve</p>
+                    </div>
+                    <div className="Checkbox" >
+                        <input
+                            name="con"
+                            type="checkbox"
+                            checked={con}
+                            onChange={handleInputChange}
+                        /><p
+                            style={{ paddingLeft: 10, fontStyle: 'normal', fontFamily: "futura-standard" }}
+                        >Be in a good condition, slight rust is acceptable</p>
+                    </div>
                 </div>
             </header>
         </div>
