@@ -1,0 +1,12 @@
+name = "bunnings-diy-gas-swap"
+type = "webpack"
+route = ''
+zone_id = ''
+usage_model = ''
+compatibility_flags = []
+workers_dev = true
+compatibility_date = "2022-07-14"
+account_id = '137a5060958511bbabb84c38acaa877e'
+[site]
+bucket = "./build"
+entry-point = "workers-site"
