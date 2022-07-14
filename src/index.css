@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Futura Std';
+  src: local('Futura Std'), url(./assets/fonts/Futura/Futura-Heavy.ttf) format('opentype');
+  font-style: normal;
+  font-weight: 800;
+}
