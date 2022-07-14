@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <img src={logo} className="App-logo" alt="logo" />
       <p>Self serve gas swap now available at Bunnings.</p>
-      <Link to="/empty">
+      <Link to="/empty" style={{textDecoration:"none"}}>
         <>
           <div
             onClick={() => {}}
