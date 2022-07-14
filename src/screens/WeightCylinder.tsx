@@ -18,8 +18,8 @@ function WeightCylinder() {
             }}>
                 <p>Which size cylinder are you dropping off?</p>
             </div>
-            <Link to="/condition" style={{textDecoration: "none"}}><Button text={"8.5 kg"}></Button></Link>
-            <Link to="/condition" style={{textDecoration: "none"}}><Button text={"3.7 kg"}></Button></Link>
+            <Link to="/condition" style={{textDecoration: "none",margin: "auto",marginBottom:"20px"}}><Button text={"8.5 kg"}></Button></Link>
+            <Link to="/condition" style={{textDecoration: "none",margin: "auto"}}><Button text={"3.7 kg"}></Button></Link>
         </div>
     )
 }

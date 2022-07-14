@@ -18,8 +18,8 @@ function EmptyCylinder() {
             }}>
                 <p>Do you have an empty gas cylinder to drop off?</p>
             </div>
-            <Link to="/weight" style={{textDecoration: "none"}}><Button text={"Yes"}></Button></Link>
-            <Link to="/weight" style={{textDecoration: "none"}}><Button text={"No"}></Button></Link>
+            <Link to="/weight" style={{textDecoration: "none",margin: "auto",marginBottom: "20px"}}><Button text={"Yes"}></Button></Link>
+            <Link to="/weight" style={{textDecoration: "none",margin: "auto"}}><Button text={"No"}></Button></Link>
         </div>
     )
 }

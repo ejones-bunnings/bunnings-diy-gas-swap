@@ -7,8 +7,7 @@ export default function Button({text}:{text:String}){
             onClick={()=>{
 
             }}
-            style={{
-                margin: "auto",
+            style={{           
                 borderRadius: "16px",
                 width:"87.7vw",
                 maxWidth: "342px",
@@ -16,7 +15,6 @@ export default function Button({text}:{text:String}){
                 textAlign: "center",
                 border: "solid",
                 borderColor: "black",
-                marginBottom:"16px"
             }}>    
             <p 
             style={{
