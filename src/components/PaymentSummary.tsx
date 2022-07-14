@@ -29,12 +29,16 @@ export default function PaymentSummary () {
                 fontSize: "16px",
                 lineHeight: "20px",
                 color: "#757575"}}>Replacing with 8.5kg cylinder</p>
-            <div style={{display: "flex"}}>
+            <div style={{display: "flex",justifyContent:"space-between",marginRight:"30px"}}>
                 <div>
                     <p>Total</p>
                     <p>Including GST</p>
                 </div>
-                <div></div>
+                <div><p style={{
+                fontSize: "36px",
+                lineHeight: "30px",
+                color: "#333333"
+                }}>$ 28.95</p></div>
             </div>
         </div>
     )
