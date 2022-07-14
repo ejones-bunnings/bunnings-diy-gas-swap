@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Button({ text }: { text: String }) {
+export default function Button({ text,reverse }: { text: String,reverse?: boolean }) {
   return (
     <>
       <div
@@ -13,6 +13,7 @@ export default function Button({ text }: { text: String }) {
           textAlign: "center",
           border: "solid",
           borderColor: "black",
+          background: reverse?"#0D5257":"#FFFFFF"
         }}
       >
         <p
@@ -24,7 +25,7 @@ export default function Button({ text }: { text: String }) {
             fontWeight: 800,
             fontSize: "26px",
             letterSpacing: "0.4px",
-            color: "#333333",
+            color: reverse?"#FFFFFF":"#333333",
           }}
         >
           {text}

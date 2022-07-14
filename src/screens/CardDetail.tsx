@@ -2,7 +2,8 @@ import React from "react";
 import Button from "../components/Button";
 import { Link } from "react-router-dom";
 import logo from '../diy-gas-swap.png'
-function WeightCylinder() {
+import card from "../card.png"
+function CardDetail() {
     return (
         <div style={{display:"flex",flexDirection:"column",maxWidth: "480px",margin:"auto",minHeight:"100vh"}}>
             <img src={logo} alt="" style={{width:"200px",height:"21px",margin:"22px auto"}}/>
@@ -17,11 +18,11 @@ function WeightCylinder() {
                 width:"87.7vw",
                 maxWidth: "342px",
             }}>
-                <p>Which size cylinder are you dropping off?</p>
+                <p>Add card details</p>
             </div>
-            <Link to="/condition" style={{textDecoration: "none",margin: "20px auto"}}><Button text={"8.5 kg"}></Button></Link>
-            <Link to="/condition" style={{textDecoration: "none",margin: "20px auto"}}><Button text={"3.7 kg"}></Button></Link>
+            <img src={card} alt='card detail' style={{margin:"22px auto"}}/>
+            <Link to="/unlock" style={{textDecoration: "none",margin: "auto",marginBottom:"20px"}}><Button text={"Done"} reverse={true}></Button></Link>
         </div>
     )
 }
-export default WeightCylinder
+export default CardDetail

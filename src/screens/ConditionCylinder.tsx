@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import cylinder from "../cylinder.png";
 import logo from '../diy-gas-swap.png'
 import "./Condition.css";
-
+import Button from "../components/Button";
+import { Link } from "react-router-dom";
 function ConditionCylinder() {
     const [foot, setFoot] = useState(false);
     const [neck, setNeck] = useState(false);
@@ -25,11 +26,13 @@ function ConditionCylinder() {
 
     }
     return (
-        <div className="Screen-Wrapper">
+    <>
+        <div className="Screen-Wrapper" style={{maxWidth: "480px",margin:"auto",minHeight:"100vh"}}>
             <header className="Cylinder-header">
-                <div style={{ height: 22 }} />
+                {/* <div style={{ height: 22 }} />
                 <img src={logo} className="Cylinder-logo" alt="logo" />
-                <div style={{ height: 22 }} />
+                <div style={{ height: 22 }} /> */}
+                <img src={logo} alt="" style={{width:"200px",height:"21px",margin:"22px auto"}}/>
                 <img src={cylinder} className="Cylinder-logo" alt="cylinder" />
                 <div style={{ height: 22 }} />
                 <p className="Text">Check the conditions of your empty cylinder</p>
@@ -79,8 +82,12 @@ function ConditionCylinder() {
                     </div>
                 </div>
             </header>
+            <div style={{display:"flex",flexDirection:"column"}}>
+            <Link to="/size" style={{textDecoration: "none",margin: "auto",marginBottom: "20px"}}><Button text={"All conditions are met"}></Button></Link>
+            <Link to="/size" style={{textDecoration: "none",margin: "auto"}}><Button text={"Does not meet conditions"}></Button></Link>
+            </div>
         </div>
-
+    </>
     )
 }
 export default ConditionCylinder

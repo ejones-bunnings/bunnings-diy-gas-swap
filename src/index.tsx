@@ -8,8 +8,11 @@ import WeightCylinder from './screens/WeightCylinder'
 import ConditionCylinder from './screens/ConditionCylinder'
 import SizeCylinder from './screens/SizeCylinder'
 import ConfirmPay from './screens/ConfirmPay'
-
+import CardDetail from './screens/CardDetail'
 import reportWebVitals from './reportWebVitals';
+import UnlockCage from './screens/UnlockCage';
+import Swap from "./screens/Swap"
+import Done from "./screens/Done"
 import {
   BrowserRouter,
   Routes,
@@ -28,6 +31,10 @@ root.render(
       <Route path="/condition"  element={<ConditionCylinder />} />
       <Route path="/size"  element={<SizeCylinder />} />
       <Route path="/confirmPay"  element={<ConfirmPay />} />
+      <Route path="/cardDetail"  element={<CardDetail />} />
+      <Route path="/unlock"  element={<UnlockCage />} />
+      <Route path="/swap"  element={<Swap />} />
+      <Route path="/done"  element={<Done />} />
     </Routes>
   </BrowserRouter>
 );
