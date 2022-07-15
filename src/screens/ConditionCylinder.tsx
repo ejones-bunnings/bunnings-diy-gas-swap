@@ -77,8 +77,8 @@ function ConditionCylinder() {
                 htmlFor="footCheckbox"
                 style={{
                   paddingLeft: 10,
-                  fontStyle: "normal",
-                  fontFamily: "futura-standard",
+                  paddingBottom: 3,
+                  fontFamily: "Futura Std",
                 }}
               >
                 Has a foot ring
@@ -96,8 +96,8 @@ function ConditionCylinder() {
                 htmlFor="neckCheckbox"
                 style={{
                   paddingLeft: 10,
-                  fontStyle: "normal",
-                  fontFamily: "futura-standard",
+                  paddingBottom: 3,
+                  fontFamily: "Futura Std",
                 }}
               >
                 Has a neck ring or protective guard
@@ -115,8 +115,8 @@ function ConditionCylinder() {
                 htmlFor="polCheckbox"
                 style={{
                   paddingLeft: 10,
-                  fontStyle: "normal",
-                  fontFamily: "futura-standard",
+                  paddingBottom: 3,
+                  fontFamily: "Futura Std",
                 }}
               >
                 Has a POL or QCC valve
@@ -134,8 +134,8 @@ function ConditionCylinder() {
                 htmlFor="conCheckbox"
                 style={{
                   paddingLeft: 10,
-                  fontStyle: "normal",
-                  fontFamily: "futura-standard",
+                  paddingBottom: 3,
+                  fontFamily: "Futura Std",
                 }}
               >
                 Be in a good condition, slight rust is acceptable

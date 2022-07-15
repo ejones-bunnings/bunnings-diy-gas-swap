@@ -14,9 +14,8 @@
   height: 22;
 }
 .Text {
-  font-weight: 800;
-  font-style: normal;
-  font-family: "futura-standard";
+  font-size: large;
+  font-family: "Futura Std";
 }
 .CheckboxText {
   padding-left: 10;
