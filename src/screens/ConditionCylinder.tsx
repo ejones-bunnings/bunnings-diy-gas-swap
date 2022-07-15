@@ -151,20 +151,18 @@ function ConditionCylinder() {
           }}
         >
           <div
-            onTouchEnd={handleConditionsMetPressed}
             style={{
               textDecoration: "none",
               margin: "auto",
               marginBottom: "20px",
             }}
           >
-            <Button text={"All conditions are met"}></Button>
+            <Button onClick={handleConditionsMetPressed} text={"All conditions are met"}></Button>
           </div>
           <div
-            onTouchEnd={handleConditionsNotMetPressed}
             style={{ textDecoration: "none", margin: "auto" }}
           >
-            <Button text={"Does not meet conditions"}></Button>
+            <Button onClick={handleConditionsNotMetPressed} text={"Does not meet conditions"}></Button>
           </div>
         </div>
       </div>

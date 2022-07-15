@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function Button({ text,reverse }: { text: String,reverse?: boolean }) {
+export default function Button({ text,reverse, onClick }: { text: String,reverse?: boolean, onClick?:()=>void }) {
   return (
     <>
       <div
-        onClick={() => {}}
+        onClick={onClick}
         style={{
           borderRadius: "16px",
           width: "87.7vw",
