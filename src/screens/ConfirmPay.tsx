@@ -24,13 +24,14 @@ function ConfirmPay() {
             <p style={{
             fontFamily: 'Futura Std',
             marginLeft: "16px",
+            marginTop: '0',
             fontSize: "17px",
             lineHeight: "24px",
             letterSpacing: "0.4px",
             color: "#0D5257"
             }}>Pay with</p>
-            <Link to="/cardDetail" style={{textDecoration: "none",margin: "auto",marginBottom: "20px"}}><Button text={"Credit Card"}></Button></Link>
-            <Link to="/cardDetail" style={{textDecoration: "none",margin: "auto",marginBottom: "20px"}}><Button text={"Apple Pay"}></Button></Link>
+            <Link to="/cardDetail" style={{textDecoration: "none",margin: "auto",marginBottom: "10px"}}><Button text={"Credit Card"}></Button></Link>
+            <Link to="/cardDetail" style={{textDecoration: "none",margin: "auto",marginBottom: "10px"}}><Button text={"Apple Pay"}></Button></Link>
             <Link to="/cardDetail" style={{textDecoration: "none",margin: "auto"}}><Button text={"PayPal"}></Button></Link>
         </div>
     )

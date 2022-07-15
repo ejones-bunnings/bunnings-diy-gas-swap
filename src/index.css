@@ -18,3 +18,10 @@ code {
   font-style: normal;
   font-weight: 800;
 }
+
+@font-face {
+  font-family: 'Challenge For Bunnings';
+  src: local('Challenge For Bunnings'), url(./assets//fonts/Futura/Challenge.ttf) format('opentype');
+  font-style: normal;
+  font-weight: 700;
+}
